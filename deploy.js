@@ -16,7 +16,7 @@ handler.on('error', function (err) {
 })
 
 handler.on('push', function (event) {
-    console.log('========= pull pull ==========');
+    console.log('========= pull master start ==========');
     process.exec('cd '+dirPath+' && git pull origin master', function (error, stdout, stderr) {
         if (error !== null) {
             console.log('exec error: ' + error);
