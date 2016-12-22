@@ -1,0 +1,22 @@
+{
+  "name": "aliyu-deploy",
+  "version": "1.0.0",
+  "description": "deplay\u001b[o\u001b[C",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyi10year/aliyu-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyi10year/aliyu-deploy/issues"
+  },
+  "homepage": "https://github.com/luyi10year/aliyu-deploy#readme",
+  "devDependencies": {
+    "github-webhook-handler": "^0.6.0"
+  }
+}
